@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>乌鲁木齐 · 4天半4晚行程地图</title>
+<meta name="description" content="天池、南山沙沟、江布拉克、自由活动与新疆博物馆。按天查看路线、时间安排和出行提醒。">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%231d5648'/%3E%3Cpath d='M6 24L15 7L26 24Z' fill='white'/%3E%3Cpath d='M12 13L15 7L19 13Z' fill='%23d3a55c'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="leaflet.css"><link rel="stylesheet" href="style.css"><script defer src="leaflet.js"></script><script defer src="app.js"></script>
+</head><body>
+<header class="topbar"><div class="brand"><span class="brandmark" aria-hidden="true">山</span><div><h1>乌鲁木齐 <span>行程地图</span></h1><p>4天半 · 4晚同住 · 每日往返</p></div></div><button id="open-art" class="outline">查看手绘路线图 ↗</button></header>
+<nav id="tabs" aria-label="选择行程日期"></nav>
+<main class="workspace"><aside id="content" aria-live="polite"></aside>
+<section class="map-panel" aria-label="交互式行程地图"><div class="map-toolbar"><div><span class="eyebrow" id="map-kicker">TRIP OVERVIEW</span><h2 id="map-title">以乌鲁木齐为起点</h2></div><div class="view-switch" aria-label="地图模式"><button data-mode="schematic" aria-pressed="true">路线示意</button><button data-mode="geo" aria-pressed="false">地理地图</button></div></div>
+<div id="diagram" aria-label="行程关系示意图"></div><div id="map" hidden></div><div id="map-message" role="status" hidden></div>
+<div class="map-bottom"><span id="map-caption">点选目的地查看当天行程 · 连线不代表真实道路</span><button id="reset-map" class="text-button">显示全程</button></div><div class="map-note">地点为区域参考位置；导航请按名称核对入口。沙沟未确认入口，地理图不落点。</div></section></main>
+<dialog id="art-dialog"><div class="dialog-head"><h2>你上传的路线规划图</h2><button id="close-art" aria-label="关闭路线图">关闭 ×</button></div><img src="route-plan.jpg" alt="乌鲁木齐4天半4晚旅游攻略：天池、南山沙沟、江布拉克、自由活动、新疆博物馆" width="1143" height="2048"></dialog>
+<noscript><p>请启用 JavaScript 查看交互行程地图。<a href="route-plan.jpg">查看原始路线图</a></p></noscript>
+</body></html>
