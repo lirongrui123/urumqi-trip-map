@@ -1,0 +1,1 @@
+# urumqi-trip-map
